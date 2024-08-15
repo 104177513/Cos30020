@@ -1,0 +1,4 @@
+localhost
+root
+
+s104177513_db
