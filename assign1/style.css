@@ -1,0 +1,162 @@
+body {
+  background-color: #f0f8ff;
+  color: #000;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #87ceeb;
+  padding: 15px;
+}
+
+h1 a {
+  color: #008080;
+  text-decoration: none;
+}
+
+nav a {
+  color: #008080;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #87ceeb;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #008080;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #008080;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #008080;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #008080;
+  border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+fieldset {
+  border-color: #008080;
+  border-style: solid;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #008080;
+}
+
+legend {
+  color: #008080;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #008080;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button,
+input:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 11px #006666;
+  animation: glow 3s infinite;
+}
+
+textarea:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 11px #006666;
+  animation: glow 3s infinite;
+}
+
+select:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 11px #006666;
+  animation: glow 3s infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #008080;
+  }
+  25% {
+    box-shadow: 0 0 10px #007575;
+  }
+  50% {
+    box-shadow: 0 0 15px #006666;
+  }
+  75% {
+    box-shadow: 0 0 20px #005555;
+  }
+  100% {
+    box-shadow: 0 0 20px #006666;
+  }
+}
+
+nav a:hover {
+  font-size: larger;
+}
+
+header h1 a:hover {
+  font-size: larger;
+}
+
+footer a:hover {
+  font-size: larger;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #006666;
+}
+small {
+  color: #008080;
+}
+
+p {
+  color: #008080;
+}
+ul {
+  color: #008080;
+}
+
+.errorMessage {
+  color: red;
+}
